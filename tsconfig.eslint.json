@@ -1,6 +1,6 @@
 {
   "extends": "./tsconfig.json",
-  "include": ["src/**/*", ".eslintrc.js"],
+  "include": ["src/**/*", ".eslintrc.js", "tailwind.config.js"],
   "exclude": ["node_modules", "dist", "build"],
   "eslintIgnore": ["webpack"]
 }

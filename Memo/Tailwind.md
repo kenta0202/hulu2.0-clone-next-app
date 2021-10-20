@@ -1,0 +1,8 @@
+- whitespace
+- cursor-pointer
+- transition
+- duration-100
+- transform
+- scale-125
+- overflow
+- space

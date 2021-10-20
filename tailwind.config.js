@@ -6,10 +6,19 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        "3xl": "1800px",
+      },
+      textColor: {
+        primary: "#3490dc",
+        secondary: "#ffed4a",
+        danger: "#e3342f",
+      },
+    },
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar-hide")],
 };
