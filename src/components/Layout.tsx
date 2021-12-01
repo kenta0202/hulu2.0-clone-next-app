@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import React, { ReactNode } from "react";
 // import Link from "next/link";
 import Head from "next/head";
@@ -6,6 +7,8 @@ type Props = {
   children?: ReactNode;
   title?: string;
 };
+
+const a = "a";
 
 const Layout = ({ children, title = "This is the default title" }: Props) => (
   <div>
